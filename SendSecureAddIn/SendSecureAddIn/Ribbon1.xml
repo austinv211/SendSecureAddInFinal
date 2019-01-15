@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabNewMailMessage">
+        <group id="GroupSendSecurePopOut" label="Send Message as Encrypted" insertBeforeMso="GroupClipboard">
+          <button id="ButtonSendSecurePopOut" label="Send Message As Encrypted" screentip="Sends Email as Encrypted" onAction="OnButtonSendSecure" size="large" getImage="ButtonSendSecure_GetImage"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
